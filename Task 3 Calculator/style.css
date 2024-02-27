@@ -74,10 +74,6 @@ form #display input {
     background-color: white;
     color: black;
 }
-/* .calculator form input:hover{
-    background-image: -webkit-linear-gradient(40deg, #f80d0d 50%, rgb(23, 15, 15) 50%);
-    background-image: linear-gradient(40deg, #f20909 50%, rgb(58, 53, 53) 50%); 
-} */
 #db label {
     color: white;
 }
