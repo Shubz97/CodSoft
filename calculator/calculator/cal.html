@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widt   h, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="calculator">
+            <form>
+                <div id="display">
+                    <input type="text" placeholder="0" style="color:red;" name="display">
+
+                </div>
+
+                <input type="text" class="inp1" value="AC" onclick="display.value=''"
+                    style="background-image:url(./9.png); background-position: center; background-size:130px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206);">
+                <input type="text" class="inp1" value="DEL" onclick="display.value=display.value.slice(0,-1)"
+                    style="background-image:url(./8.png); background-position: center; background-size:130px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206);">
+                <input type="text" class="inp3" value="." onclick="display.value+='.'"
+                    style="background-image:url(./10.png); background-position: center; background-size:80px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); color: black;">
+                <input type="text" class="inp4" value="/" onclick="display.value+='/'"
+                    style="background-image:url(./11.png); background-position: center; background-size:80px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); color: black;">
+                <br>
+                <input type="text" class="inp5" value="7" onclick="display.value+='7'">
+                <input type="text" class="inp6" value="8" onclick="display.value+='8'">
+                <input type="text" class="inp7" value="9" onclick="display.value+='9'">
+                <input type="text" class="inp8" value="*" onclick="display.value+='*'"
+                    style="background-image:url(./e.png); background-position: center; background-size:80px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); ">
+                <br>
+                <input type="text" class="inp9" value="4" onclick="display.value+='4'"  >
+                <input type="text" class="inp10" value="5" onclick="display.value+='5'">
+                <input type="text" class="inp11" value="6" onclick="display.value+='6'">
+                <input type="text" class="inp12" value="-" onclick="display.value+='-'"
+                    style="background-image:url(./f.png); background-position: center; background-size:80px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); color: black;">
+                <br>
+                <input type="text" class="inp13" value="1" onclick="display.value+='1'">
+                <input type="text" class="inp14" value="2" onclick="display.value+='2'">
+                <input type="text" class="inp15" value="3" onclick="display.value+='3'">
+                <input type="text" class="inp16" value="+" onclick="display.value+='+'"
+                    style="background-image:url(./g.png); background-position: center; background-size:80px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); color: black;">
+                <br>
+               <!-- <button style="background-image: url(./d.png); background-position: center; background-repeat: no-repeat; background-size:80px; color: white; background-color:rgb(214, 206, 206); color: black;  height: 60px;
+               width:65px;
+               border-radius: 10px; margin-top:-10px;margin-left:10px; border: transparent; box-shadow: -8px -8px 15px black; color:rgb(0, 0, 0);">
+                ><a href="./cal1.html"><></a></button> -->
+                <input type="text" class="inp18" value="<>" onclick="display.value+='<>'">
+                <input type="text" class="inp18" value="0" onclick="display.value+='0'">
+                <input type="text" class="inp19" value="X2" onclick="display.value *=(display.value)"
+                    style="background-image:url(./c.png); background-position: center; background-size:100px; background-repeat: no-repeat;  background-color:rgb(214, 206, 206); color: black;">
+                <input type="text" class="inp1" value="=" onclick="display.value=eval(display.value)" class="equal"
+                    style="background-image: url(./b.png); background-position: center; background-repeat: no-repeat; background-size:80px; color: black;">
+                <br>
+
+<!--                     
+                <div
+                    style="margin-left: 180px; color: rgb(253, 253, 255);font-family: 'Times New Roman', Times, serif;" id=" db">
+                    <marquee behavior="" direction="right"><label for="" style="font-size: 10px;">Designed By.. <br>
+                            AJAY Devkate</label></marquee>
+                </div> -->
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- //onclick="display.value+='1'" -->
+    <!-- onclick="display.value=eval(display.value)" -->
+</body>
+
+</html>

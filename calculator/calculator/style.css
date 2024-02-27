@@ -1,0 +1,105 @@
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    
+
+}
+
+.calculator{
+   
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 30px;
+    box-shadow:14px 10px 3px black;
+    border: 1px solid;
+    color: #fff;
+    border: 3px solid rgba(94, 85, 85, 0.227);
+    background-image: -webkit-linear-gradient(40deg, #c266d3 50%, rgb(245, 237, 237) 50%);
+    background-image: linear-gradient(40deg, #c266d3 50%, rgb(235, 223, 223) 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+
+      }
+      
+
+
+
+.calculator:hover{
+    /* transform: translate(-16px); */
+    background-position: 100%;
+    color: #c266d3;
+    background-image: linear-gradient(40deg, rgb(243, 74, 74) 50%, rgb(235, 223, 223) 50%);
+    box-shadow:-14px -10px 3px black;
+    
+      }
+      
+   
+   
+
+form #display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    box-shadow:-8px -8px 15px black;
+    color: rgb(238, 10, 10);
+    background-color:white;
+    border-radius: 15px;
+    background-image: url(./1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;  
+}
+
+form #display:hover{
+  background-position: left;
+  background-image: url(./3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:50%; 
+  color: red;
+}
+
+form #display input{
+    text-align: right;
+    flex: 1;
+    font-size: 30px;
+    box-shadow: none;
+    
+} 
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: transparent;
+    box-shadow: -8px -8px 15px black;
+    color:rgb(0, 0, 0);
+  
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculator form .inp1{
+    background-color:white;
+    color:black;
+}
+
+/* .calculator form input:hover{
+    background-image: -webkit-linear-gradient(40deg, #f80d0d 50%, rgb(23, 15, 15) 50%);
+    background-image: linear-gradient(40deg, #f20909 50%, rgb(58, 53, 53) 50%);
+    
+} */
+
+#db label{
+    color:white;
+}
